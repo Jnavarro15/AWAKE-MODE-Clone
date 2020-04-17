@@ -22,7 +22,8 @@ code {
 }
 
 .tiers {
-  margin: 0 5.5rem 5rem 5.5rem
+  margin: 0 1rem 7rem 1rem;
+  cursor: pointer;
 }
 
 .scrolled {
@@ -72,6 +73,7 @@ code {
   position: absolute;
   right: 3rem;
   font-size: .7rem;
+  cursor: pointer;
 }
 
 #menu li {
@@ -94,8 +96,27 @@ code {
 
 .logo {
   width: 100px;
-  height: 100px;  
+  height: 100px;
+  cursor: pointer;  
 }
 
-
+.offer {
+  display: block;
+  z-index: 100;
+  transform: rotate(-90deg);
+  text-align: center;
+  padding: 5px 5px;
+  right: -88px;
+  position: fixed;
+  top: 50%;
+  text-align: center;
+  width: 200px;
+  background: #eaeaea;
+  height: 30px;
+  font-weight: 400;
+  cursor: pointer;
+  font-size: 15px;
+  text-decoration: none;
+  color: #111;
+}
 

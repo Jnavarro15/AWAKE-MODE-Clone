@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { FaShoppingBag } from 'react-icons/fa'
 
 export default class Nav extends Component {
   componentDidMount() {
@@ -17,11 +18,7 @@ export default class Nav extends Component {
     window.removeEventListener('scroll');
   }
 
-
   render() {
-
-
-
     return (
       <div>
         <span className='covid'>For the next 30 days, we are donating 10% of our sales to Glasdoor COVID-19 Emergency Appeal</span>
@@ -50,14 +47,16 @@ const MenuRight = () => (
     <ul id='menu'>
       <li>LOGIN / REGISTER</li>
       <li> | </li>
-      <li>MY BAG (0) <i class="fas fa-shopping-bag"></i></li>
+      <li>
+        MY BAG (0) <FaShoppingBag />
+      </li>
     </ul>
   </div>
 )
 
 const Logo = () => (
   <div>
-    <a href="#"><img className='logo' src="https://images.businessoffashion.com/filestack/NnqvtEZlRKyO4rhjFB6M_5f991f1c4c361d7d162c65bd1751c956.png?auto=format%2Ccompress&w=340" alt="logo" /></a>
+    <img className='logo' src="https://images.businessoffashion.com/filestack/NnqvtEZlRKyO4rhjFB6M_5f991f1c4c361d7d162c65bd1751c956.png?auto=format%2Ccompress&w=340" alt="logo" />
   </div>
 )
 

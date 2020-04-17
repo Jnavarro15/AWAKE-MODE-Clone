@@ -1,0 +1,86 @@
+.copyright {
+  margin-left: 3rem;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 5rem;
+  width: 20rem;
+}
+
+
+.copyright h3 {
+  margin: 0;
+  font-size: .75rem;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.copyright .email {
+  width: 90%;
+  height: 30px;
+  align-self: center;
+  padding: 0;
+}
+
+.copyright .icon-box {
+  width: 10%;
+  height: 30px;
+  background: #989897;
+  align-self: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  cursor: pointer;
+}
+
+.copyright .icon {
+  color: white;
+  font-size: 13px;
+}
+
+.form-container {
+  display: flex;
+  margin: .5rem 0 1rem 0;
+}
+
+.footer {
+  padding: 2.4rem 1rem 3rem 1rem;
+  border-top: .5px solid rgba(0,0,0,0.3);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-menu {
+  display: flex;
+  font-size: .75rem;
+  font-weight: 600;
+  padding-right: 3rem;
+  margin-right: 2.8rem;
+  align-self: start;
+  line-height: 1.1rem;
+}
+
+.footer-menu ul {
+  margin-top: -0.6rem;
+  padding-left: 35px;
+}
+
+.footer-menu li {
+  list-style: none;
+}
+
+.footer-menu a {
+  text-decoration: none;
+  color: #111;
+  text-transform: uppercase;
+}
+
+.rights {
+  display: block;
+  font-size: .75rem;
+  font-weight: 600;
+}
+
+
